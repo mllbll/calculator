@@ -1,3 +1,4 @@
+# my first calculator
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
 from PyQt5.QtWidgets import QLabel, QLCDNumber, QLineEdit, QFontDialog
 from PyQt5.QtWidgets import *
@@ -131,7 +132,6 @@ class Example(QWidget):
         self.btnudalit.move(20, 250)
         self.btnudalit.clicked.connect(self.udalenie)
         self.btnudalit.setStyleSheet("background-color: orange;")
-
 
     def ravno(self):
         otvet = self.label1.text()
